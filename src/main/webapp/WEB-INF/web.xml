@@ -4,4 +4,52 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>172.16.5.161:7141</param-value>
+    </context-param>
+  <servlet>
+    <servlet-name>Serverlet</servlet-name>
+    <servlet-class>com.test.hw.Serverlet</servlet-class>
+    <init-param>
+      <param-name>name</param-name>
+      <param-value>test</param-value>
+    </init-param>
+    <init-param>
+      <param-name>password</param-name>
+      <param-value>111111</param-value>
+    </init-param>
+  </servlet>
+    <servlet>
+        <servlet-name>TestServletContext</servlet-name>
+        <servlet-class>com.test.hw.TestServletContext</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TestServletContext2</servlet-name>
+        <servlet-class>com.test.hw.TestServletContext2</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>TestServletContext3</servlet-name>
+        <servlet-class>com.test.hw.TestServletContext3</servlet-class>
+    </servlet>
+  <servlet-mapping>
+    <servlet-name>Serverlet</servlet-name>
+    <url-pattern>/servlet/TestServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>TestServletContext</servlet-name>
+    <url-pattern>/servlet/TestServletContext</url-pattern>
+  </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>TestServletContext2</servlet-name>
+        <url-pattern>/servlet/TestServletContext2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>TestServletContext3</servlet-name>
+        <url-pattern>/servlet/TestServletContext3</url-pattern>
+    </servlet-mapping>
 </web-app>
