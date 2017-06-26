@@ -33,6 +33,31 @@
         <servlet-name>TestServletContext3</servlet-name>
         <servlet-class>com.test.hw.TestServletContext3</servlet-class>
     </servlet>
+
+    <servlet>
+        <servlet-name>TestServletContext4</servlet-name>
+        <servlet-class>com.test.hw.TestServletContext4</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>TestServletContext5</servlet-name>
+        <servlet-class>com.test.hw.TestServletContext5</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TestServletContext6</servlet-name>
+        <servlet-class>com.test.hw.TestServletContext6</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>TestServletContext7</servlet-name>
+        <servlet-class>com.test.hw.TestServletContext7</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>TestServletContext8</servlet-name>
+        <servlet-class>com.test.hw.TestServletContext8</servlet-class>
+    </servlet>
+
   <servlet-mapping>
     <servlet-name>Serverlet</servlet-name>
     <url-pattern>/servlet/TestServlet</url-pattern>
@@ -52,4 +77,30 @@
         <servlet-name>TestServletContext3</servlet-name>
         <url-pattern>/servlet/TestServletContext3</url-pattern>
     </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>TestServletContext4</servlet-name>
+        <url-pattern>/servlet/TestServletContext4</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>TestServletContext5</servlet-name>
+        <url-pattern>/servlet/TestServletContext5</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>TestServletContext6</servlet-name>
+        <url-pattern>/servlet/TestServletContext6</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>TestServletContext7</servlet-name>
+        <url-pattern>/servlet/TestServletContext7</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>TestServletContext8</servlet-name>
+        <url-pattern>/servlet/TestServletContext8</url-pattern>
+    </servlet-mapping>
+    
 </web-app>
